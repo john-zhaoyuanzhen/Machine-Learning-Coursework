@@ -12,6 +12,5 @@ dependencies:
   - scikit-learn=1.5.1
   - ipykernel
   - jupyter
-  - pip:
-    - pydot==1.4.2
-    - graphviz==2.50.0
+  - pydot
+  - graphviz
