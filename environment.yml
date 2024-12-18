@@ -1,11 +1,17 @@
-name: myenv
+name: m1_env
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.9.15
+  - python=3.9.18
+  - pip=24.2
   - numpy=1.26.4
   - matplotlib=3.9.2
   - optuna=4.1.0
   - tensorflow=2.10.0
   - scikit-learn=1.5.1
+  - ipykernel
+  - jupyter
+  - pip:
+    - pydot==1.4.2
+    - graphviz==2.50.0
